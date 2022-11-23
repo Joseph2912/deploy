@@ -1,0 +1,82 @@
+
+
+.contenedor1{
+        display: flex;
+        justify-content: flex-end;
+        height: 570px; 
+}
+
+.Registro{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid #f2f2f2 0.2px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+   
+    
+
+}
+.Registro input{
+    float: right;
+    padding: 16px;
+    font-size: 17px;
+  }
+
+.Registro h1{
+
+  font-size: 300%;
+  font-family: "Coolvetica";
+  color: #2E2C36;
+  padding-bottom: 20px;
+}
+
+input#nombre{
+
+    
+    height: 60px;
+    width: 400px;
+    margin: 10px;
+    border: solid  rgb(223, 221, 221) 0.5px;
+    border-radius: 7px;
+}
+
+.button1{
+
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: "Coolvetica";
+  color: #FF5449;
+  font-size: 20px;
+  background: #F9F9F9;
+  padding: 18px 62px 18px 62px;
+  border: solid #ff5549 0.5px;
+  text-decoration: none;
+  margin-top: 40px;
+
+}
+
+.button1:hover {
+    color: #F9F9F9;
+    background-color: #FF5449;
+  }
+
+.Registro p{
+
+    font-size: medium;
+    font-family: "Coolvetica";
+    color: #2E2C36;
+    
+}
+
+.Registro a{
+
+    font-size: medium;
+    font-family: "Coolvetica";
+    color: #FF5449;
+    text-decoration: none;
+}

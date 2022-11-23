@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.top {
+
+  display: flex;
+  justify-content: center;
+  background-color: #F9F9F9;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  
+
+}
+a.buttonEntrar {
+  
+  border-radius: 7px;
+  font-family: "Coolvetica";
+  color: #606060;
+  font-size: 20px;
+  background: #F9F9F9;
+  text-decoration: none;
+
+}
+
+a.buttonEntrar:hover {
+  color: #FF5449;
+
+}
+
+a.buttonRestaurante {
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: "Coolvetica";
+  color: #606060;
+  font-size: 20px;
+  background: #F9F9F9;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+a.buttonRestaurante:hover {
+  color: #FF5449;
+}
+
+
+a.buttonSoporte {
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: "Coolvetica";
+  color: #606060;
+  font-size: 20px;
+  background: #F9F9F9;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+a.buttonSoporte:hover {
+  color: #FF5449;
+  
+}
+.contenedor {
+
+  background-color: #F9F9F9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  margin-left: -8px;
+  margin-top: -20px;
+
+}
+
+.contenedor h1 {
+
+  font-size: 100px;
+  color: #FF5449;
+  width: 340px;
+  height: 100px;
+  margin-bottom: 30px;
+  filter: drop-shadow(5px 5px 10px rgba(31, 30, 30, 0.096));
+
+}
+
+.contenedor p {
+
+  font-size: xx-large;
+  font-family: "Coolvetica";
+  color: #FF5449;
+
+}
+.mapContainer{
+  bottom: 0;
+  left: 0;
+  top: 0;
+  height: 700px;
+  right: 0;
+  position: absolute;
+}
+.infowindow{
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background: #fff;
+  border-radius: 8px;
+  z-index: 99;
+  padding: 10px;
+}
