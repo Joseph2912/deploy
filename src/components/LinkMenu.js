@@ -7,8 +7,8 @@ import LoginRestaurante from "./LoginRestaurante"
 import Registro from "./ResgistroRestaurante"
 import RegistroUsuario from "./RegistroUsuario";
 import LoginUsuario from "./LoginUsuario";
-import App2 from "../App2";
-import {MapsApp} from "../MapsApp";
+//import App2 from "../App2";
+//import {MapsApp} from "../MapsApp";
 
 const LinkTest = () =>{
 
@@ -22,7 +22,7 @@ const LinkTest = () =>{
     <Route path="Entrar" element={<LoginUsuario /> } />
     <Route path="EntrarUsuario" element={<LoginUsuario /> } />
     <Route path="RegistroUsuario" element={<RegistroUsuario /> } />
-    <Route path="Soporte" element={<MapsApp /> } />
+    <Route path="Soporte" element={<App /> } />
   </Routes>
   </div>
   )
